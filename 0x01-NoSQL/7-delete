@@ -1,0 +1,4 @@
+// delete by match
+
+db.school.findAndDelete({"name": "Holberton school"})
+
